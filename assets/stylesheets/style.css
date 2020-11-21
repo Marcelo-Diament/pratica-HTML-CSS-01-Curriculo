@@ -14,7 +14,9 @@ footer {
 }
 
 section,
-article {
+article,
+div,
+table {
   padding: 16px;
 }
 
