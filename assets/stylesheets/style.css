@@ -6,6 +6,18 @@
   padding: 0;
 }
 
+header,
+aside,
+main,
+footer {
+  padding: 24px;
+}
+
+section,
+article {
+  padding: 16px;
+}
+
 h1 {
   color: #152ea0;
   font-family: 'Anton', Arial, Helvetica, sans-serif;
