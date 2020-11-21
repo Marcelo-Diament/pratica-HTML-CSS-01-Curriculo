@@ -32,6 +32,12 @@ ___
 
 _Changelog basicamente é um log, um histórico das atualizações do projeto. Perceba que está organizado em ordem cronológica decrescente, ou seja, o que está acima é mais recente e o que está abaixo é mais antigo. É extremamente útil criarmos um changelog de nossos projetos para mantermos um histórico de fácil leitura e permitirmos outros devs entenderem rapidamente a evolução do projeto (não precisa ser tão detalhado quanto esse, que tem propósito didático)._
 
+**bugfix/09-refatoracao-aside**
+
+* Documentação: atualização do que foi feito no projeto até o momento
+
+* Bugfix: inclusão de títulos
+
 **feature/08-recomendacoes**
 
 * Documentação: atualização do que foi feito no projeto até o momento
