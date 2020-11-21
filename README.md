@@ -20,7 +20,7 @@ Como padrão, podemos considerar os prefixos `feature` (para novas funcionalidad
 
 **Branch**
 
-Para nomearmos as _branches_, usaremos o seguinte modelo: `prefixo/00-titulo`, sendo o número a ordem de cada _branch_ e o título um título breve que descreva de forma sucinta o que está sendo feito na _branch_.
+Para nomearmos as _branches_, usaremos o seguinte modelo: `prefixo/00-titulo` , sendo o número a ordem de cada _branch_ e o título um título breve que descreva de forma sucinta o que está sendo feito na _branch_.
 
 **Commit**
 
@@ -31,6 +31,16 @@ ___
 ## Changelog
 
 _Changelog basicamente é um log, um histórico das atualizações do projeto. Perceba que está organizado em ordem cronológica decrescente, ou seja, o que está acima é mais recente e o que está abaixo é mais antigo. É extremamente útil criarmos um changelog de nossos projetos para mantermos um histórico de fácil leitura e permitirmos outros devs entenderem rapidamente a evolução do projeto (não precisa ser tão detalhado quanto esse, que tem propósito didático)._
+
+**feature/03-header**
+
+* Feature: inclusão do atributo de link `href` (tag `<a></a>`) no telefone e email do header
+
+* Feature: inclusão da imagem de perfil
+
+* Feature: reordenação das informações do _header_
+
+* Feature: inclusão de tags HTML no _header_
 
 **feature/02-conteudo-inicial**
 
@@ -48,7 +58,7 @@ _Changelog basicamente é um log, um histórico das atualizações do projeto. P
 
 * Documentação: atualização do que foi feito no projeto até o momento
 
-* Feature: inclusão das principais tags (`<header></header>`,   `<aside></aside>`,   `<main></main>`,   `<footer></footer>`)
+* Feature: inclusão das principais tags (`<header></header>`,    `<aside></aside>`,    `<main></main>`,    `<footer></footer>`)
 
 * Feature: atualização dos meta dados ( `lang` e `title` )
 
