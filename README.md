@@ -32,6 +32,18 @@ ___
 
 _Changelog basicamente é um log, um histórico das atualizações do projeto. Perceba que está organizado em ordem cronológica decrescente, ou seja, o que está acima é mais recente e o que está abaixo é mais antigo. É extremamente útil criarmos um changelog de nossos projetos para mantermos um histórico de fácil leitura e permitirmos outros devs entenderem rapidamente a evolução do projeto (não precisa ser tão detalhado quanto esse, que tem propósito didático)._
 
+**feature/10-inclusao-atributos-html**
+
+* Documentação: atualização do que foi feito no projeto até o momento
+
+* Feature: definição de título, cópia, cópia oculta e corpo do email definido no link do tipo '_mailto_'
+
+* Feature: inclusão de atributos complementares da tag `<a></a>` (`rel` e `referrerpolicy` além do `href`)
+
+* Feature: inclusão de atributos básicos da tag `<a></a>` (`title` e `target` além do `href`)
+
+* Feature: inclusão de atributos da tag `<img/>` (`height` e `width` além do `alt`)
+
 **bugfix/09-refatoracao-aside**
 
 * Documentação: atualização do que foi feito no projeto até o momento
