@@ -52,3 +52,13 @@ p {
   line-height: 24px;
   margin: 8px auto;
 }
+
+ul {
+  list-style: none;
+}
+
+footer b {
+  display: block;
+  margin: auto;
+  width: fit-content;
+}
