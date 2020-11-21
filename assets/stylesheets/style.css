@@ -80,6 +80,10 @@ header div {
   vertical-align: middle;
 }
 
+footer {
+  border-top: 4px solid #1634bd;
+}
+
 footer b {
   display: block;
   margin: auto;
