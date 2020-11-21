@@ -32,6 +32,18 @@ ___
 
 _Changelog basicamente é um log, um histórico das atualizações do projeto. Perceba que está organizado em ordem cronológica decrescente, ou seja, o que está acima é mais recente e o que está abaixo é mais antigo. É extremamente útil criarmos um changelog de nossos projetos para mantermos um histórico de fácil leitura e permitirmos outros devs entenderem rapidamente a evolução do projeto (não precisa ser tão detalhado quanto esse, que tem propósito didático)._
 
+**feature/07-estrutura-semantica**
+
+* Documentação: atualização do que foi feito no projeto até o momento
+
+* Feature: agrupando elementos do header com tag neutra `<div></div>`
+
+* Feature: substituindo algumas listas por outras tags mais adequadas
+
+* Feature: agrupando conteúdo com tag semântica `<article></article>` ('micro') no lugar de algumas listas
+
+* Feature: agrupando conteúdo com tag semântica `<section></section>` ('macro') no lugar de algumas listas
+
 **feature/06-main**
 
 * Documentação: atualização do que foi feito no projeto até o momento
