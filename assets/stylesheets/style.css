@@ -57,6 +57,14 @@ ul {
   list-style: none;
 }
 
+header img {
+  border: 2px solid #1634bd;
+  border-radius: 50%;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+  height: 96px;
+  width: 96px;
+}
+
 footer b {
   display: block;
   margin: auto;
