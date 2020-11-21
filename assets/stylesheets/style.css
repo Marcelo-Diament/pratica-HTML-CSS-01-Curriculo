@@ -13,6 +13,11 @@ footer {
   padding: 24px;
 }
 
+header,
+footer {
+  background-color: #b5c2f8;
+}
+
 section,
 article,
 div,
@@ -57,12 +62,22 @@ ul {
   list-style: none;
 }
 
+header {
+  border-bottom: 4px solid #1634bd;
+}
+
 header img {
   border: 2px solid #1634bd;
   border-radius: 50%;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
   height: 96px;
   width: 96px;
+}
+
+header div {
+  display: inline-block;
+  font-weight: bolder;
+  vertical-align: middle;
 }
 
 footer b {
