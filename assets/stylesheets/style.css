@@ -80,6 +80,31 @@ header div {
   vertical-align: middle;
 }
 
+table {
+  background-color: #b5c2f8;
+  border-collapse: separate;
+}
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+  border: 1px solid #1634bd
+}
+
+table caption {
+  margin: auto auto 16px;
+}
+
+th,
+td {
+  background-color: #fff;
+  padding: 16px;
+}
+
 footer {
   border-top: 4px solid #1634bd;
 }
