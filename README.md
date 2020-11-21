@@ -32,7 +32,11 @@ ___
 
 _Changelog basicamente é um log, um histórico das atualizações do projeto. Perceba que está organizado em ordem cronológica decrescente, ou seja, o que está acima é mais recente e o que está abaixo é mais antigo. É extremamente útil criarmos um changelog de nossos projetos para mantermos um histórico de fácil leitura e permitirmos outros devs entenderem rapidamente a evolução do projeto (não precisa ser tão detalhado quanto esse, que tem propósito didático)._
 
+**hotfix: atualização da documentação 3**
+
 **feature/03-header**
+
+* Documentação: atualização do que foi feito no projeto até o momento
 
 * Feature: inclusão do atributo de link `href` (tag `<a></a>`) no telefone e email do header
 
