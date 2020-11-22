@@ -83,6 +83,7 @@ header div {
 table {
   background-color: #b5c2f8;
   border-collapse: separate;
+  margin: auto;
 }
 
 table,
