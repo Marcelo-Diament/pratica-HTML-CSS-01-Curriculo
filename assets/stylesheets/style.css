@@ -71,8 +71,14 @@ header img {
   border-radius: 50%;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
   height: 96px;
+  transition: transform .6s ease-in-out;
   width: 96px;
 }
+
+header img:hover {
+  transform: rotate(360deg);
+}
+
 
 header div {
   display: inline-block;
