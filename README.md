@@ -1,18 +1,42 @@
 # Práticas de HTML e CSS | #01 - Currículo
 
+![Imagem de Capa](https://github.com/Marcelo-Diament/pratica-HTML-CSS-01-Curriculo/blob/main/assets/img/cover.png)
+
+___
+
+## Índice
+
+[Introdução](#introdução)
+
+[Como Colaborar?](#como-colaborar)
+
+[Changelog](#changelog)
+
+___
+
 ## Introdução
 
-Esse repositório pertence a uma série de práticas criadas para fixarmos nosso conhecimento sobre **HTML** e **CSS**. Como é uma prática com foco em **HTML e CSS**, pularemos algumas etapas do processo como um todo, mas - idealmente - recomenda-se **planejar muito bem o projeto antes de sairmos codando**. Isso inclui, no mínimo, busca por referências, definição do conteúdo, definição da hierarquia das informações e criação de um layout (ou ao menos um protótipo).
+Esse repositório é o primeiro de uma série de práticas criadas para fixarmos nosso conhecimento sobre **HTML** e **CSS**. Como é uma prática com foco em **HTML e CSS**, pularemos algumas etapas do processo de desenvolvimento de uma aplicação como um todo, mas - idealmente - recomenda-se **planejar muito bem o projeto antes de sairmos codando**. Isso inclui, no mínimo, busca por referências, definição do conteúdo, definição da hierarquia das informações e criação de um layout (ou ao menos um protótipo).
+
+Ainda, como é a primeira aula sobre **HTML** e **CSS**, tenha em mente que há uma série de 'melhores maneiras' de atingirmos o mesmo resultado (ou mesmo resultados melhores), como uso do _flexbox_, o desenvolvimento _mobile first_ e o uso de uma série de outras propriedades e recursos, como _media queries_. Mas não se preocupe, chegaremos lá! Por enquanto, vamos focar no básico e garantirmos que todo o conhecimento será devidamente absorvido.
 
 **Objetivo**
 
 Basicamente criaremos um currículo básico para entendermos as principais **tags e atributos do HTML**, bem como a **semântica do HTML**. Em seguida aplicaremos estilo a esse currículo através do **CSS**, para conhecermos os principais **seletores** e **propriedades/valores**.
 
-**Changelog**
+___
 
-Também será criado um **Changelog** explicando o que foi feito em cada branch do repositório, para que fique clara a ordem do passo a passo desse projeto.
+## Como Colaborar?
 
-**GitFlow e Padrões de Nomenclatura**
+Essa sessão destina-se a explicar como colaborar com nosso projeto - ou seja, quais os padrões definidos e que devem ser respeitados.
+
+### Changelog
+
+**Changelog** basicamente é um log, um histórico das atualizações do projeto. Perceba que está organizado em ordem cronológica decrescente, ou seja, o que está acima é mais recente e o que está abaixo é mais antigo. Portanto cada nova _feature_, _bugfix_ ou qualquer outra alteração deve ser documentada no _changelog_.
+
+É extremamente útil criarmos um changelog de nossos projetos para mantermos um histórico de fácil leitura e permitirmos outros devs entenderem rapidamente a evolução do projeto (não precisa ser tão detalhado quanto esse, que tem propósito didático).
+
+### GitFlow e Padrões de Nomenclatura
 
 > **Importante:** como já conhecemos o **fluxo de trabalho com git (gitFlow)**, seguiremos as boas práticas de criarmos uma **branch** por atividade/feature e quebrarmos as atualizações de cada branch em **commits** que façam sentido - sempre incluindo a mensagem que descreve cada commit.
 
@@ -26,15 +50,31 @@ Para nomearmos as _branches_, usaremos o seguinte modelo: `prefixo/00-titulo` , 
 
 Para nomearmos os _commits_, usaremos o seguinte padrão: `prefixo: descrição breve [nome-da-branch]` - assim, ao olharmos a lista dos arquivos no repositório, veremos facilmente quando e para que ocorreu a última atualização de cada arquivo.
 
+### Observações
+
+Sempre mantenha seu código limpo, bem indentado e escrito de forma clara.
+
+Mantenha as propriedades de estilo em ordem alfabética dentro de cada seletor e respeite a hierarquia dos seletores (seletores mais genéricos acima e seletores mais específicos abaixo, de modo que as especificidades sobrescrevam as generalidades).
+
+Lembre-se sempre de testar em seu ambiente local (_localhost_) antes de abrir uma PR (_Pull Request_).
+
 ___
 
 ## Changelog
 
-_Changelog basicamente é um log, um histórico das atualizações do projeto. Perceba que está organizado em ordem cronológica decrescente, ou seja, o que está acima é mais recente e o que está abaixo é mais antigo. É extremamente útil criarmos um changelog de nossos projetos para mantermos um histórico de fácil leitura e permitirmos outros devs entenderem rapidamente a evolução do projeto (não precisa ser tão detalhado quanto esse, que tem propósito didático)._
+**feature/15-documentation-review**
+
+* Documentação: inclusão de 'Índice'
+
+* Documentação: inclusão de 'Como Colaborar?'
+
+* Documentação: revisão geral do arquivo README.md
+
+* Documentação: inclusão de imagem de capa
 
 **feature/14-seletores-avancados-css**
 
-_Novos seletores: por atributo (`[attr="valor"]`), pseudoseletores (`:`) e pseudoelementos (`::`)_
+_Novos seletores: por atributo ( `[attr="valor"]` ), pseudoseletores ( `:` ) e pseudoelementos ( `::` )_
 
 * Documentação: atualização do que foi feito no projeto até o momento
 
@@ -54,7 +94,7 @@ _Novos seletores: por atributo (`[attr="valor"]`), pseudoseletores (`:`) e pseud
 
 **feature/13-mais-seletores-css**
 
-_Novos seletores: por ID (`#`) e por classe (`.`)_
+_Novos seletores: por ID ( `#` ) e por classe ( `.` )_
 
 * Documentação: atualização do que foi feito no projeto até o momento
 
@@ -82,7 +122,7 @@ _Apenas seletores simples e aninhados através de tags HTML_
 
 * Feature: definindo margens e alinhamento de textos
 
-* Feature: definindo margem de elementos containeres (`header`, `aside`, `main`, `footer`, `section`, `article`, `div`)
+* Feature: definindo margem de elementos containeres (`header`,  `aside`,  `main`,  `footer`,  `section`,  `article`,  `div`)
 
 * Feature: definindo estilo de fontes
 
@@ -154,12 +194,11 @@ _Apenas seletores simples e aninhados através de tags HTML_
 
 * Feature: criação de lista não ordenada com a tag `<ul></ul>` (_unordered list_) e `<li></li>` (_list item_)
 
-
 **feature/05-aside**
 
 * Documentação: atualização do que foi feito no projeto até o momento
 
-* Feature: inclusão da tags de texto, como `<b></b>` (bold/negrito), `<i></i>` (itálico) e `<mark></mark>` (grifado)
+* Feature: inclusão da tags de texto, como `<b></b>` (bold/negrito),  `<i></i>` (itálico) e `<mark></mark>` (grifado)
 
 * Feature: inclusão da tag `<p></p>` em cada parágrafo
 
@@ -201,7 +240,7 @@ _Apenas seletores simples e aninhados através de tags HTML_
 
 * Documentação: atualização do que foi feito no projeto até o momento
 
-* Feature: inclusão das principais tags (`<header></header>`,    `<aside></aside>`,    `<main></main>`,    `<footer></footer>`)
+* Feature: inclusão das principais tags (`<header></header>`,     `<aside></aside>`,     `<main></main>`,     `<footer></footer>`)
 
 * Feature: atualização dos meta dados ( `lang` e `title` )
 
