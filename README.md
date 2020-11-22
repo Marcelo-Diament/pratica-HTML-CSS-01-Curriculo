@@ -32,6 +32,32 @@ ___
 
 _Changelog basicamente é um log, um histórico das atualizações do projeto. Perceba que está organizado em ordem cronológica decrescente, ou seja, o que está acima é mais recente e o que está abaixo é mais antigo. É extremamente útil criarmos um changelog de nossos projetos para mantermos um histórico de fácil leitura e permitirmos outros devs entenderem rapidamente a evolução do projeto (não precisa ser tão detalhado quanto esse, que tem propósito didático)._
 
+**feature/12-estilo-inicial**
+
+* Documentação: atualização do que foi feito no projeto até o momento
+
+* Feature: estilizando table
+
+* Feature: estilizando header e footer
+
+* Feature: estilizando imagem de perfil (incluindo sombra)
+
+* Feature: centralizando conteúdo do footer com `display: block; margin: auto; width: fit-content;`
+
+* Feature: definindo margens e alinhamento de textos
+
+* Feature: definindo margem de elementos containeres (`header`, `aside`, `main`, `footer`, `section`, `article`, `div`)
+
+* Feature: definindo estilo de fontes
+
+* Feature: importando fontes através do [GoogleFonts](https://fonts.google.com/specimen/Anton?sidebar.open=true&selection.family=Anton|Montserrat)
+
+* Feature: definindo resets no estilo (propriedades iniciais)
+
+* Feature: adicionando o arquivo CSS ao HTML pela tag `<link rel="stylesheet" href="./assets/stylesheets/style.css">` (caminho relativo)
+
+* Feature: criando arquivo CSS - `./assets/stylesheets/style.css`
+
 **feature/11-tags-semanticas-de-texto**
 
 * Documentação: atualização do que foi feito no projeto até o momento
