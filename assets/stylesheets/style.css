@@ -137,6 +137,10 @@ footer b {
   background-color: rgba(248, 195, 181, 0.5);
 }
 
+[class*="-item"]:first-of-type {
+  background-color: rgba(191, 248, 181, 0.5);
+}
+
 a[href*="tel"]::before {
   content: '\0260E';
   margin-right: 4px;
