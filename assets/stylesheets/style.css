@@ -115,3 +115,65 @@ footer b {
   margin: auto;
   width: fit-content;
 }
+
+#contatoHeader {
+  margin: -40px 0 0 50%;
+}
+
+#objetivo mark {
+  background-color: rgba(181, 194, 248, .2);
+}
+
+#recomendacoes caption {
+  color: #1634bd;
+}
+
+#habilidades {
+  background-color: rgba(181, 194, 248, .2);
+  border-radius: 16px 0;
+}
+
+#hardSkills,
+#softSkills {
+  display: inline-block;
+  vertical-align: top;
+  min-width: calc(50% - 32px);
+}
+
+#hardSkills ul,
+#softSkills ul {
+  background-color: #b5c2f8;
+  border-radius: 16px 0;
+  min-height: 112px;
+  padding: 16px;
+}
+
+#experienciaProfissional article h3 {
+  margin-top: 0;
+}
+
+#premiosReconhecimentos {
+  background-color: rgba(181, 194, 248, .2);
+  border-left: 4px solid #1634bd;
+  padding-left: 32px;
+}
+
+#premiosReconhecimentos h2 {
+  margin: 24px auto;
+}
+
+#premiosReconhecimentos ol {
+  list-style-type: lower-roman;
+}
+
+#premiosReconhecimentos ol li {
+  line-height: 32px;
+}
+
+#formacaoAcademica article h3 {
+  margin-top: 0;
+}
+
+#contatoFooter a {
+  text-decoration: none;
+}
