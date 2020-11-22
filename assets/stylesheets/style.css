@@ -123,6 +123,11 @@ footer b {
   padding: 24px;
 }
 
+a[href*="tel"]::before {
+  content: '\0260E';
+  margin-right: 4px;
+}
+
 .ano {
   color: #888;
   display: block;
