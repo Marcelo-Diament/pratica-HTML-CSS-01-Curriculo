@@ -67,6 +67,7 @@ header {
 }
 
 header img {
+  animation: bordaCamaleao 4s infinite;
   border: 2px solid #1634bd;
   border-radius: 50%;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
@@ -212,4 +213,22 @@ a[href*="tel"]::before {
 
 #contatoFooter a {
   text-decoration: none;
+}
+
+@keyframes bordaCamaleao {
+  0% {
+    border: 2px solid #1634bd;
+  }
+  25% {
+    border: 2px solid #bd1616;
+  }
+  50% {
+    border: 2px solid #bd9616;
+  }
+  75% {
+    border: 2px solid #4bbd16;
+  }
+  100% {
+    border: 2px solid #1634bd;
+  }
 }
