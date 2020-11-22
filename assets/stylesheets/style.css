@@ -116,6 +116,26 @@ footer b {
   width: fit-content;
 }
 
+.formacao-item {
+  background-color: rgba(181, 194, 248, .2);
+  border-radius: 32px;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+
+.profissao-item {
+  background-color: rgba(181, 194, 248, .2);
+  border-radius: 32px;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+
+.ano {
+  color: #888;
+  display: block;
+  font-style: italic;
+}
+
 #contatoHeader {
   margin: -40px 0 0 50%;
 }
